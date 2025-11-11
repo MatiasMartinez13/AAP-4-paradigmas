@@ -1,0 +1,20 @@
+{
+  "name": "aap3.paradigm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.18.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  }
+}
